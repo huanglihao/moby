@@ -250,3 +250,5 @@ func (daemon *Daemon) Cleanup(container *container.Container) {
 		logrus.Errorf("%s cleanup: failed to delete container from containerd: %v", container.ID, err)
 	}
 }
+
+/* lex */
